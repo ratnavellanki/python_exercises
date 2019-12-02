@@ -7,3 +7,12 @@ def rad_sphere():
     ta = input("Want to try another number? ")
     if ta.lower() == "y":
         rad_sphere()
+        
+########################################################### OUTPUT #######################################################################
+rad_sphere()
+Enter the radius: 2
+33.510321638291124
+Want to try another number? Y
+Enter the radius: 5
+523.5987755982989
+Want to try another number? n
