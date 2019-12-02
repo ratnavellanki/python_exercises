@@ -1,0 +1,16 @@
+## Exercise from Udemy Complete Python boot camp: Go from zero to hero by Jose Portilla ###
+def ran_check():
+    num = int(input("Enter a number between 1 and 100: "))
+    if num in range(1,101):
+        print ("%d in defined range" %num)
+    else:
+        print ("%d not in defined range try again" %num)
+        ran_check()
+        
+############################################################# OUTPUT #####################################################################
+Enter a number between 1 and 100: 289
+289 not in defined range try again
+Enter a number between 1 and 100: 345
+345 not in defined range try again
+Enter a number between 1 and 100: 32
+32 in defined range
