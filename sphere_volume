@@ -1,0 +1,9 @@
+## Exercise from Udemy Complete Python boot camp: Go from zero to hero by Jose Portilla ###
+from math import *
+def rad_sphere():
+    r = float(input("Enter the radius: "))
+    vol = (4/3)*pi*r**3
+    print(vol)
+    ta = input("Want to try another number? ")
+    if ta.lower() == "y":
+        rad_sphere()
