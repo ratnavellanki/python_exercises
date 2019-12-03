@@ -1,0 +1,15 @@
+## Exercise from Udemy Complete Python boot camp: Go from zero to hero by Jose Portilla ###
+ort string
+def ispangram():
+    st1 = input("enter a string: ")
+    alphabet = string.ascii_lowercase
+    alphaset = set(alphabet)
+    return alphaset <= set(st1.lower())
+    
+############################################# OUTPUT ################################################################################
+ispangram()
+enter a string: Pack my box with five dozen liquor jugs
+True
+
+enter a string: This is a test sentence
+False
